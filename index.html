@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+      h2{
+        text-align: center;
+        color: aliceblue;
+        background-color: black;
+        padding: 10px;
+      }
+      li a{
+        margin-left:150px ;
+      }
+      .nav-link:hover{
+        color:blue;
+      }
+      /* #pic{
+        margin-bottom: 40px;
+        margin-left: 25px;
+        opacity: 0.7;
+      } */
+      #pic{
+        background-image: url("desert.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 96%;
+        margin-left: 30px;
+        height: 500px;
+      }
+      #pic1{
+        width: 180px;
+        height:140px;
+        margin-top: 80px;
+        margin-left: 630px;
+        opacity: 1;
+        border: 3px solid white;
+      }
+      #para{
+        margin-left: 610px;
+        font-size: 25px;
+        color: white;
+      }
+      #para1{
+        margin-left: 613px;
+        font-size: 12px;
+        color: white;
+      }
+      #btndw{
+        text-decoration-line: none;
+        color: white;
+        margin-left: 650px;
+        font-size: 17px;
+        border: 1px solid white;
+        padding: 8px 25px 8px 0px;
+      }
+        #btndw:hover{
+          opacity: 0.8;
+        }
+        .coll b{
+          margin-left: 10px;
+        }
+        #dob{
+          margin-left: 50px;
+        }
+        #email{
+          margin-left: 40px;
+        }
+        #num{
+          margin-left: 34px;
+        }
+        #address{
+          margin-left: 27px;
+        }
+        .skill span{
+          margin-left: 10px;
+        }
+        #about{
+          border: 1px solid white;
+          padding: 10px;
+          border-radius: 10px;
+        }
+        #about:hover{
+          box-shadow: 5px 10px 10px 10px #cecbcb;
+        }
+    </style>
+</head>
+<body>
+  <h2>PORTFOLIO</h2>
+  <div class="navs">
+  <nav class="navbar navbar-expand-sm bg-light">
+    <div class="container">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#"><img src="portfolio.png" width="50px" height="50px"></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link pt-4" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link pt-4" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link pt-4" href="#">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link pt-4" href="projects.html">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link pt-4" href="contact.html" target="_self">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  </div><br>
+  <div id="pic">
+    <img src="pic1.jpg" id="pic1">
+    <p id="para">Srilakshmi Gollapalli</p>
+    <p id="para1">Java Developer and Front-end Developer</p>
+    <a href="N181128_resume-4.pdf" download="resume" id="btndw"><button class="btn"></button>Download cv</button></a>
+</div><br>
+<div id="about">
+<div class="container">
+<div class="row">
+  <div class="col-sm">
+    <b><P>About Me</P></b>
+    <p>Hello! I am Srilakshmi Gollapalli.I am very passionate about in web designing and solving java programming.
+      I am skilled <b>front-end developer</b> and good knowledge in Java,C,Python programming languages.
+    I am qucik learner and a team worker that gets the job done.<br>
+    To secure employment with a reputable company, where I can utilize my 
+    skills and business studies background to the maximum. A highly motivated and 
+    hardworking individual skilled in C, Java, frontend and MySql.</p>
+    <div class="skill">
+    <p><b>skills</b></p>
+    <p><b>Programming Languages:</b><span>Java,C,Python</span></p>
+    <p><b>Web Languages:</b><span>HTML,CSS,Bootstrap,Java Script</span></p>
+    <p><b>Database Languages:</b><span>MySql,MangoDB</span></p>
+    <p><b>Tools:</b><span>MS Word,MS Powerpoint and MS Excel</span></p>
+    <p><b>Other Skills</b>
+    <p>Pandas,Numpy,Git and Github with linux commands,Web automation and scrapping with python</p>
+  </div>
+</div>
+  <div class="col-sm">
+    <div class="coll">
+    <p><b>Bio</b></p>
+    <p><i class="fa-regular fa-calendar-days"></i><b>DOB</b><span id="dob">20</span></p>
+    <p><i class="fa-solid fa-envelope"></i><b>Email</b><span id="email">gollapallisrilakshmi77@gmail.com</span></p>
+    <p><i class="fa-solid fa-phone"></i><b>Phone</b><span><span id="num">8688418892</span></p>
+    <p><i class="fa-solid fa-location-dot"></i></i><b>Address</b><span id="address">NTR-street,Vadisaleru,East Godavari,Andhra Pradesh,533294</span></p>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
